@@ -48,7 +48,7 @@ __Profiler.prototype.eventsOrder = ['navigationStart', 'redirectStart', 'redirec
  */
 __Profiler.prototype.cssReset = 'font-size:12px;line-height:1em;z-index:99999;text-align:left;' + 'font-family:Calibri,\'Lucida Grande\',Arial,sans-serif;text-shadow:none;box-' + 'shadow:none;display:inline-block;color:#444;font-' + 'weight:normal;border:none;margin:0;padding:0;background:none;';
 
-__Profiler.prototype.elementCss = 'position:relative;top:0;left:0;right:0;margin:0 auto;top:' + '0;left:0;right:0;border-bottom:solid 1px #EFCEA1;box-shadow:0 2px 5px rgba(0,0,0,.1);';
+__Profiler.prototype.elementCss = 'position:absolute;top:0;left:0;right:0;margin:0 auto;top:' + '0;left:0;right:0;border-bottom:solid 1px #EFCEA1;box-shadow:0 2px 5px rgba(0,0,0,.1);';
 
 __Profiler.prototype.containerCss = 'background:#FFFDF2;background:rgba(255,253,242,.99);padding:20px;display:block;';
 
